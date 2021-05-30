@@ -1,7 +1,7 @@
 export function Button(props){
   // 整個 Button component 共用的 class
   let btnClassName = 'inline-block rounded mr-6 cursor-pointer mb-4 '
-  let iconClassName = 'inline h-4 w-4 mr-1 '
+  let iconClassName = 'inline h-4 w-4 mr-1 align-sub '
   let textClassName = 'inline '
   // 參數名字傳錯的錯誤訊息
   let alert = ""
